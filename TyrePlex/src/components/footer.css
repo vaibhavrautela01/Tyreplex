@@ -1,0 +1,10 @@
+/* Add this to your global CSS or in a CSS module */
+.underline-space::before {
+    content: '';
+    display: block;
+    height: 2px; /* Adjust thickness */
+    background: currentColor; 
+    margin-top: 5px; 
+
+  }
+  

@@ -1,0 +1,85 @@
+.purchase-main {
+    width: 95%;
+      margin: 150px auto 0; 
+      padding: 50px 0;
+      display: block; 
+      text-align: center; 
+      height: 2000px;
+
+    }
+  
+  
+      .Allpurchase-main{
+        background-color: white;
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+    top: 125px;
+    text-align: center;
+    display:flex;
+  }
+  
+  
+  .paypal{
+   position: relative;
+   left:10%;
+   width: 100%;
+  }
+  
+  .purchase-img{
+    height: 200px;
+    width: 200px;
+  }
+  
+  .purchase-ab {
+    flex: 0 0 auto;
+    width: 900px; 
+    height: 1200px; 
+    margin: 10px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .purchase-ab .secure-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .purchase-ab .secure-container img {
+    width: 100%;
+    height: auto;
+    cursor: pointer; /* Change cursor to pointer to indicate clickability */
+  }
+  
+  .purchase-ab .secure-container .text {
+    position: absolute;
+    top: 10px;
+    left: 120px; /* Adjust as needed */
+background-color: greenyellow;
+width:370px;
+    padding: 15px;
+    border-radius: 15px;
+    display: none; /* Hide by default */
+  }
+  
+  .purchase-ab .secure-container:hover .text {
+    display: block; /* Show on hover */
+  }
+  
+  
+  .text{
+    font-size: 35px;
+  }
+
+  @media (max-width: 2480px) {
+  .Allpurchase-main{
+      display: flex;
+      flex-direction: column;
+    
+  }
+  }

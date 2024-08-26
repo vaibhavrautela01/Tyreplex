@@ -1,0 +1,39 @@
+.services-main {
+    background-color: white;
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+    top: 25px;
+    text-align: center;
+
+}
+
+.servicephoto {
+    height: 200px;
+    margin: 0 auto; /* Ensures the image is centered horizontally */
+    display: block; /* Allows margin auto to work on the image */
+}
+
+.ab {
+    border: 4px solid rgb(210, 207, 207); 
+    width: 20%;
+    margin: 10px;
+    height: 600px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+
+.deals-container {
+    display: flex;
+    justify-content: center; 
+}
+
+.btn{
+    color: white;
+    background-color: red;
+    padding: 25px;
+}
